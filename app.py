@@ -2,7 +2,6 @@ from pathlib import Path
 
 DATA_FILE = Path(__file__).resolve().parent / "nisha.txt"
 
-
 def read_students():
     students = []
     if not DATA_FILE.exists():
